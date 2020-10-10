@@ -21,6 +21,7 @@ public class Main {
         Box<Apple> newAppleBox = new Box<>();
         newAppleBox.addToBox(new Apple(1));
         newAppleBox.addToBox(new Apple(1));
+        System.out.println(appleBox.compare(newAppleBox,newAppleBox.getWeight(1)));
 
 
 
