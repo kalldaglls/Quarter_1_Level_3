@@ -1,0 +1,11 @@
+@startuml
+
+class Fruit
+class Apple
+class Orange
+class Box<Fruit>
+
+Fruit -> Apple
+Fruit -> Orange
+
+@enduml
