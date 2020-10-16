@@ -1,7 +1,4 @@
 public class Car extends Auto {
-    public Car(String name, float fuelCapacity, float fuelConsumption, float size) {
-        super(name, fuelCapacity, fuelConsumption, size);
-    }
 
 
     /*

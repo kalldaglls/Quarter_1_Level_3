@@ -1,7 +1,5 @@
 public class Bus extends Auto {
-    public Bus(String name, float fuelCapacity, float fuelConsumption, float size) {
-        super(name, fuelCapacity, fuelConsumption, size);
-    }
+
 
     /*
     private double fuelCapacity = 40;
