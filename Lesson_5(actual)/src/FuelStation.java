@@ -18,5 +18,6 @@ public class FuelStation {
         } finally {
             semaphore.release();
         }
+        return newFuel;
     }
 }
