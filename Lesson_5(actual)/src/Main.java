@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Semaphore semaphore = new Semaphore(3);
         FuelStation fuelStation = new FuelStation(semaphore);
-        ExecutorService executorService = Executors.newCachedThreadPool();
+        ExecutorService executorService = Executors.newFixedThreadPool(10);
         for (int i = 0; i < 3 ; i++) {
             executorService.submit(
                     new Bus("Bus #" + i, fuelStation)
