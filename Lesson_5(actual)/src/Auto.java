@@ -13,6 +13,13 @@ public abstract class Auto implements Runnable  {
         this.fuelStation = fuelStation;
     }
 
+    public Auto(String name, float fuelCapacity, float fuelConsumption, FuelStation fuelStation) {
+        this.name = name;
+        this.fuelCapacity = fuelCapacity;
+        this.fuelConsumption = fuelConsumption;
+        this.fuelStation = fuelStation;
+    }
+
     public void checkFuel (){
         while(true) {
             try {

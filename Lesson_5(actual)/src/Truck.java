@@ -1,4 +1,7 @@
 public class Truck extends Auto {
+    public Truck(String name, FuelStation fuelStation) {
+        super(name, 60, 15, fuelStation);
+    }
 
 
     /*

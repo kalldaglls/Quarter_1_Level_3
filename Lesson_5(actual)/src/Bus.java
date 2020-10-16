@@ -1,4 +1,7 @@
 public class Bus extends Auto {
+    public Bus(String name, FuelStation fuelStation) {
+        super(name, 40,7.5F, fuelStation);
+    }
 
 
     /*
