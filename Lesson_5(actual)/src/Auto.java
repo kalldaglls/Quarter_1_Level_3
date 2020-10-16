@@ -4,10 +4,11 @@ public abstract class Auto {
     protected float fuelConsumption;
     protected float size;
 
-    public Auto(String name, float fuelCapacity, float fuelConsumption) {
+    public Auto(String name, float fuelCapacity, float fuelConsumption, float size) {
         this.name = name;
         this.fuelCapacity = fuelCapacity;
         this.fuelConsumption = fuelConsumption;
+        this.size = size;
     }
 
     public void checkFuel (){
